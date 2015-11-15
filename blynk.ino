@@ -14,7 +14,7 @@ BLYNK_WRITE(V0) {
     int r = param[0].asInt(); // get a RED channel value
     int g = param[1].asInt(); // get a GREEN channel value
     int b = param[2].asInt(); // get a BLUE channel value
-    if (param[].asInt() > 0) {
+    if (r > 0 || g > 0 || b > 0) {
         RGB.control(true);
         RGB.color(r,g,b);
     } else {
