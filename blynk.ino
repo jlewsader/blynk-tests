@@ -10,6 +10,7 @@ void setup()
   Blynk.begin(auth);  // Here you connect to the Blynk Cloud.
 }
 
+// RGB LED Control with ZeRGBa widget
 BLYNK_WRITE(V0) {
     int r = param[0].asInt(); // get a RED channel value
     int g = param[1].asInt(); // get a GREEN channel value
