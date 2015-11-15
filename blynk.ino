@@ -1,5 +1,5 @@
 // This #include statement was automatically added by the Particle IDE.
-#include "/firmware/blynk.h"
+#include "blynk.h"
 
 char auth[] = "765dc5e5e038459b952af4d138090e77";
 
