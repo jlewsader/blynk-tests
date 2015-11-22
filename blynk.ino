@@ -1,7 +1,7 @@
 // This #include statement was automatically added by the Particle IDE.
 #include "blynk.h"
 
-char auth[] = "765dc5e5e038459b952af4d138090e77";
+char auth[] = "AUTH_CODE_HERE";
 
 void setup()
 {
